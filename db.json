@@ -41,25 +41,67 @@
       "password": "abc@123",
       "email": "bhasker@test.com",
       "id": 8
+    },
+    {
+      "name": "sam sidhu",
+      "password": "sam@seller.com",
+      "email": "abc@123",
+      "id": 9
+    },
+    {
+      "name": "sam sidhu",
+      "password": "sam@seller.com",
+      "email": "abc@123",
+      "id": 10
+    },
+    {
+      "name": "sam sindhu",
+      "password": "abc@123",
+      "email": "sam@seller.com",
+      "id": 11
+    },
+    {
+      "name": "sam sindhu",
+      "password": "abc@123",
+      "email": "sam@seller.com",
+      "id": 12
+    },
+    {
+      "name": "sam sindhu",
+      "password": "abc@123",
+      "email": "sam@seller.com",
+      "id": 13
+    },
+    {
+      "name": "sam sindhu",
+      "password": "wed",
+      "email": "god@mail.com",
+      "id": 14
+    },
+    {
+      "name": "prasad",
+      "password": "12345",
+      "email": "prasad@gmail.com",
+      "id": 15
     }
   ],
   "products": [
     {
-      "name": "Samsung m 40 a ",
+      "name": "IPhone 14 pro max",
       "price": "550",
       "category": "mobile",
-      "color": "white",
-      "description": "this is a Samsung product",
+      "color": "Pale white",
+      "description": "Start journey with apple",
       "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
       "id": 1
     },
     {
-      "name": "I phone 14",
-      "price": "100000",
-      "category": "mobile",
+      "name": "Phillips Trimmer",
+      "price": "2500",
+      "category": "trimmer",
       "color": "black",
-      "description": "An Apple Product",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "description": "make use",
+      "image": "https://cdn.lowestrate.in/20220721111708/41bcsEUR7L._SL1000_.jpg",
       "id": 2
     },
     {
@@ -106,6 +148,24 @@
       "description": "Noise smart watch for man and women both",
       "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Pro-2-Smart-Watch-491900986-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYzkvaDdjLzk1OTE4MjA3NDY3ODIuanBnfDA3MjZlMzkzOTExYzMyNzk5Y2YzOTk0MWFkMjc5YjE5OTlkMDE4NzYzYTg1YzQ2YmNjZjMxYzc5ZDJiYjBlNDg",
       "id": 7
+    },
+    {
+      "name": "Gucci Bag",
+      "price": "999",
+      "category": "Personal",
+      "color": "Blue",
+      "description": "Carry your things",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "id": 8
+    },
+    {
+      "name": "",
+      "price": "",
+      "category": "",
+      "color": "",
+      "description": "",
+      "image": "https://avatars.githubusercontent.com/u/10639145?s=280&v=4",
+      "id": 9
     }
   ],
   "users": [
@@ -132,6 +192,24 @@
       "email": "tony@user.com",
       "password": "abc123",
       "id": 4
+    },
+    {
+      "name": "Prasad",
+      "email": "prasad@gmail.com",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "name": "jessy",
+      "email": "jessy@gmail.com",
+      "password": "00000",
+      "id": 6
+    },
+    {
+      "name": "jessy",
+      "email": "jessy@gmail.com",
+      "password": "12345",
+      "id": 7
     }
   ],
   "cart": [
@@ -158,6 +236,42 @@
       "productId": 5,
       "userId": 3,
       "id": 8
+    },
+    {
+      "name": "HP Laptop",
+      "price": "50000",
+      "category": "Laptop",
+      "color": "black",
+      "description": "Hp laptop for student and professionals",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
+      "quantity": 1,
+      "productId": 3,
+      "userId": 5,
+      "id": 9
+    },
+    {
+      "name": "I phone 14",
+      "price": "100000",
+      "category": "mobile",
+      "color": "black",
+      "description": "An Apple Product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "quantity": 2,
+      "productId": 2,
+      "userId": 5,
+      "id": 10
+    },
+    {
+      "name": "Phillips Trimmer",
+      "price": "2500",
+      "category": "trimmer",
+      "color": "black",
+      "description": "make use",
+      "image": "https://cdn.lowestrate.in/20220721111708/41bcsEUR7L._SL1000_.jpg",
+      "quantity": 1,
+      "productId": 2,
+      "userId": 7,
+      "id": 11
     }
   ],
   "orders": [
@@ -176,6 +290,22 @@
       "totalPrice": 6100,
       "userId": 1,
       "id": 3
+    },
+    {
+      "email": "43iuu5ry",
+      "address": "23oioieue",
+      "contact": "oir",
+      "totalPrice": 100100,
+      "userId": 6,
+      "id": 4
+    },
+    {
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 50100,
+      "userId": 7,
+      "id": 5
     }
   ]
 }

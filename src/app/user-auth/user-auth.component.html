@@ -26,9 +26,10 @@
   <p>Already Have Account ? <a (click)="openLogin()" >Click Here</a></p>
   </form>
  </div>
+
  <div *ngIf="showLogin"  class="login">
   <h1>User Login</h1>
-  <form #userLogin="ngForm" class="common-form" (ngSubmit)="login(userLogin.value)">
+  <form #userLoginForm="ngForm" class="common-form" (ngSubmit)="login(userLoginForm.value)">
     <p class="error-p">{{authError}}</p>
     <input
       type="text"
@@ -47,13 +48,14 @@
     name="password"
     placeholder="Enter User Password"
     ngModel
-    minlength="2"
+    minlength="3"
     maxlength="20"
+    pattern="[a-zA-Z0-9@ ]*"
     #password="ngModel"
     required
   />
-  <p class="invalid-input"><span *ngIf="password.invalid && password.touched " >Please enter valid input</span></p>
-  <button [disabled]="userLogin.invalid" class="form-button">Login</button>
+  <p class="invalid-input" *ngIf="password.invalid && password.touched ">Please enter valid password (min-3 & max-20)</p>
+  <button [disabled]="userLoginForm.invalid" class="form-button">Login</button>
   <p>Want to Create Account ? <a (click)="openSignUp()" >Click Here</a></p>
   </form>
  </div>
